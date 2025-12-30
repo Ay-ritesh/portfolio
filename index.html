@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Aayush Amritesh - M.Tech CSE @ IIIT Delhi | Cloud & DevOps Enthusiast | ML Practitioner. Portfolio showcasing projects, certifications, and experience.">
+    <meta name="keywords" content="Aayush Amritesh, Portfolio, DevOps, Cloud, Machine Learning, AWS, Software Engineer">
+    <meta name="author" content="Aayush Amritesh">
+    <title>Aayush Amritesh | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo">Aayush<span>.</span></a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certifications" class="nav-link">Certifications</a></li>
+                <li><a href="#journey" class="nav-link">Journey</a></li>
+                <li><a href="#funfacts" class="nav-link">Fun Facts</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg-effects">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-image">
+                <div class="image-wrapper">
+                    <img src="assets/profile.jpg" alt="Aayush Amritesh" class="profile-img">
+                    <div class="image-glow"></div>
+                </div>
+            </div>
+            <div class="hero-content">
+                <p class="hero-greeting">Hello, I'm</p>
+                <h1 class="hero-name">Aayush Amritesh</h1>
+                <div class="hero-role">
+                    <span class="role-prefix">I'm a </span>
+                    <span class="role-text" id="roleText"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-tagline">I create beautiful, functional, and user-friendly digital experiences that help
+                    businesses grow and succeed.</p>
+                <div class="hero-buttons">
+                    <a href="https://drive.google.com/file/d/1nZK_1xeqbKfKjJo7HuAn_IcZ0iARWnZA/view?usp=sharing"
+                        target="_blank" class="btn btn-primary">
+                        <i class="fas fa-file-alt"></i> View My Resume
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-envelope"></i> Get In Touch
+                    </a>
+                </div>
+                <div class="hero-socials">
+                    <a href="mailto:aayushamritesh@gmail.com" class="social-link" aria-label="Email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/aayush-amritesh-64b346220" target="_blank" class="social-link"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ay-ritesh" target="_blank" class="social-link" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://x.com/Ay_ritesh" target="_blank" class="social-link" aria-label="X"><i
+                            class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="scroll-indicator" aria-label="Scroll down">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll Down</span>
+        </a>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">Passionate Computer Science graduate student with a strong foundation in
+                        <span class="highlight">Cloud Computing</span>, <span class="highlight">Machine Learning</span>,
+                        and <span class="highlight">Software Engineering</span>.</p>
+                    <p>I enjoy building scalable, secure, and intelligent systems that solve real-world problems. My
+                        interests lie at the intersection of Cloud Infrastructure, DevOps, and Applied Machine Learning,
+                        where I focus on designing end-to-end solutions—from data processing and model development to
+                        cloud deployment and automation.</p>
+                    <p>Currently pursuing <span class="highlight">M.Tech in CSE at IIIT Delhi</span>, I'm always eager
+                        to learn new technologies, contribute to impactful projects, and collaborate with like-minded
+                        engineers and researchers.</p>
+                </div>
+                <div class="skills-section">
+                    <h3 class="skills-title">My Skills</h3>
+                    <div class="skills-categories">
+                        <div class="skill-category">
+                            <div class="category-header">
+                                <i class="fas fa-code"></i>
+                                <span>Programming</span>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                                        alt="Python">Python</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+                                        alt="C">C</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg"
+                                        alt="C++">C++</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+                                        alt="Java">Java</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                        alt="SQL">SQL</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <div class="category-header">
+                                <i class="fas fa-brain"></i>
+                                <span>AI & ML</span>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg"
+                                        alt="NumPy">NumPy</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg"
+                                        alt="Pandas">Pandas</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/scikitlearn/scikitlearn-original.svg"
+                                        alt="Scikit-learn">Scikit-learn</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tensorflow/tensorflow-original.svg"
+                                        alt="TensorFlow">TensorFlow</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pytorch/pytorch-original.svg"
+                                        alt="PyTorch">PyTorch</span>
+                                <span class="skill-badge"><i class="fas fa-network-wired"></i>CNN</span>
+                                <span class="skill-badge"><i class="fas fa-project-diagram"></i>RNN</span>
+                                <span class="skill-badge"><i class="fas fa-memory"></i>LSTM</span>
+                                <span class="skill-badge"><i class="fas fa-language"></i>NLP</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <div class="category-header">
+                                <i class="fas fa-cloud"></i>
+                                <span>Cloud & DevOps</span>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                                        alt="AWS">EC2</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                                        alt="AWS">S3</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                                        alt="AWS">Lambda</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg"
+                                        alt="AWS">RDS</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dynamodb/dynamodb-original.svg"
+                                        alt="DynamoDB">DynamoDB</span>
+                                <span class="skill-badge"><i class="fas fa-envelope"></i>SQS</span>
+                                <span class="skill-badge"><i class="fas fa-bell"></i>SNS</span>
+                                <span class="skill-badge"><i class="fas fa-globe"></i>CloudFront</span>
+                                <span class="skill-badge"><i class="fas fa-rocket"></i>Amplify</span>
+                            </div>
+                        </div>
+                        <div class="skill-category">
+                            <div class="category-header">
+                                <i class="fas fa-tools"></i>
+                                <span>Tools</span>
+                            </div>
+                            <div class="skill-badges">
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                                        alt="Git">Git</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                                        alt="GitHub">GitHub</span>
+                                <span class="skill-badge"><img
+                                        src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg"
+                                        alt="MySQL">MySQL</span>
+                                <span class="skill-badge"><i class="fas fa-network-wired"></i>Cisco Packet Tracer</span>
+                                <span class="skill-badge"><i class="fas fa-shield-alt"></i>Wireshark</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">My <span>Experience</span></h2>
+            <div class="experience-grid">
+                <div class="experience-card glass-card" data-aos="fade-up">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-server"></i>
+                        </div>
+                        <div class="exp-title-group">
+                            <h3 class="exp-title">DevOps Engineer</h3>
+                            <p class="exp-company">Foodoscope</p>
+                        </div>
+                        <span class="exp-date">Jan 2026 – Present</span>
+                    </div>
+                    <div class="exp-content">
+                        <ul class="exp-points">
+                            <li>Working as a DevOps Engineer as part of IIIT Delhi's Independent Project (IP) program,
+                                integrating industry experience with academic coursework.</li>
+                            <li>Responsible for hosting and deploying the updated frontend and designing, maintaining,
+                                and monitoring CI/CD pipelines to ensure reliable and efficient application delivery.
+                            </li>
+                        </ul>
+                        <div class="exp-tags">
+                            <span class="tag">DevOps</span>
+                            <span class="tag">CI/CD</span>
+                            <span class="tag">Cloud</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="experience-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="exp-header">
+                        <div class="exp-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <div class="exp-title-group">
+                            <h3 class="exp-title">AI Trainee Intern</h3>
+                            <p class="exp-company">Coratia Technologies</p>
+                        </div>
+                        <span class="exp-date">Nov 2023 – Jan 2024</span>
+                    </div>
+                    <div class="exp-content">
+                        <span class="exp-location"><i class="fas fa-map-marker-alt"></i> Remote</span>
+                        <ul class="exp-points">
+                            <li>Built a chatbot using Natural Language Processing (NLP) and Deep Learning. Applied Long
+                                Short-Term Memory (LSTM), a type of RNN networks to build the chatbot.</li>
+                            <li>Implemented sentiment analysis to enable the chatbot to interpret user emotions and
+                                provide tailored responses based on the sentiment detected.</li>
+                        </ul>
+                        <div class="exp-tags">
+                            <span class="tag">NLP</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">LSTM</span>
+                            <span class="tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-grid">
+                <div class="project-card glass-card" data-aos="fade-up">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-hands"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sign Language Recognition</h3>
+                        <p class="project-desc">Crafted a deep learning-based system for real-time sign language
+                            recognition, leveraging computer vision and neural networks. The system translates hand
+                            gestures into text to bridge communication gaps.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Deep Learning</span>
+                            <span>Computer Vision</span>
+                            <span>CNN</span>
+                        </div>
+                        <a href="https://github.com/Ay-ritesh/Sign-Language-Recognition" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-shield-alt"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automating Reconnaissance</h3>
+                        <p class="project-desc">Developed a Python-based framework automating passive and active
+                            reconnaissance in web application penetration testing. Integrated modules for subdomain
+                            enumeration, directory brute-forcing, and more.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Security</span>
+                            <span>Automation</span>
+                            <span>Pentesting</span>
+                        </div>
+                        <a href="https://github.com/Ay-ritesh/Automating-Reconnaissance" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-envelope-open-text"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Enron Email Classification</h3>
+                        <p class="project-desc">Preprocessed the Enron email dataset and implemented clustering
+                            techniques to eliminate data and label noise. Applied advanced machine learning models to
+                            accurately classify emails into various labels.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Machine Learning</span>
+                            <span>Clustering</span>
+                            <span>NLP</span>
+                        </div>
+                        <a href="https://github.com/Ay-ritesh/Enron-Email-Classification" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+                <div class="project-card glass-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <div class="project-icon"><i class="fas fa-comments"></i></div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sentiment Analysis Chatbot</h3>
+                        <p class="project-desc">Crafted a chatbot using Natural Language Processing and Deep Learning.
+                            Applied LSTM networks and implemented sentiment analysis to enable the chatbot to provide
+                            emotion-aware responses.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>LSTM</span>
+                            <span>Deep Learning</span>
+                        </div>
+                        <a href="https://github.com/Ay-ritesh/Sentiment-Analysis-Chatbot" target="_blank"
+                            class="project-link">
+                            <i class="fab fa-github"></i> View on GitHub
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <h2 class="section-title">My <span>Certifications</span></h2>
+            <div class="certs-grid">
+                <a href="https://www.credly.com/badges/a0814369-0f7d-47fb-a69c-5691785a1ddf/public_url" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in">
+                    <div class="cert-badge aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Certified Solutions Architect – Associate</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Dec 2023 – Dec 2026</p>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+                <a href="https://www.credly.com/badges/d28f4d0b-073c-4f87-a318-028b811daec0/public_url" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="50">
+                    <div class="cert-badge aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Certified Cloud Practitioner</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Nov 2023 – Dec 2026</p>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+                <a href="https://www.credly.com/badges/d0346104-b126-423f-85f3-2b9093319f18/public_url" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="cert-badge aws">
+                        <i class="fab fa-aws"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">AWS Academy Graduate – Cloud Foundations</h3>
+                        <p class="cert-issuer">Amazon Web Services</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Sep 2023</p>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1aY2g3jS9inZmagB9p8P_78C2SC6nHxl7/view" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="cert-badge nptel">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">NPTEL E-Business</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Nov 2023</p>
+                        <span class="cert-achievement"><i class="fas fa-star"></i> Top 1% Performer</span>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+                <a href="https://www.udemy.com/certificate/UC-e6467ee2-537d-427b-87c1-5aa199169a1b/" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="cert-badge udemy">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Python3: From Beginner to Pro</h3>
+                        <p class="cert-issuer">Udemy</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Jul 2024</p>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+                <a href="https://drive.google.com/file/d/1LUzH_J1agdW_AHJcAf79eLv_VAVzil11/view" target="_blank"
+                    class="cert-card glass-card" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="cert-badge ai">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Artificial Intelligence</h3>
+                        <p class="cert-issuer">Wissenaire, IIT Bhubaneswar</p>
+                        <p class="cert-date"><i class="far fa-calendar-alt"></i> Jan 2024</p>
+                        <span class="cert-link"><i class="fas fa-external-link-alt"></i> Show Credential</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Academic Journey Section -->
+    <section class="section journey" id="journey">
+        <div class="container">
+            <h2 class="section-title">My Academic <span>Journey</span></h2>
+            <div class="timeline">
+                <div class="timeline-line"></div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-university"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Aug 2025 – Present</span>
+                            <h3 class="timeline-title">IIIT Delhi</h3>
+                            <p class="timeline-degree">M.Tech in Computer Science & Engineering</p>
+                            <p class="timeline-desc">Pursuing advanced studies in Computer Science with focus on
+                                research and industry projects.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">Aug 2021 – Jul 2025</span>
+                            <h3 class="timeline-title">VIT Vellore</h3>
+                            <p class="timeline-degree">B.Tech in Computer Science & Engineering</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> CGPA: 8.73/10</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item left" data-aos="fade-right">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">May 2019 – Jul 2021</span>
+                            <h3 class="timeline-title">Nalanda Academy, Kota</h3>
+                            <p class="timeline-degree">Class XII (CBSE)</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> 86.6%</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item right" data-aos="fade-left">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-card glass-card">
+                        <div class="timeline-icon">
+                            <i class="fas fa-book-reader"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <span class="timeline-date">May 2017 – May 2018</span>
+                            <h3 class="timeline-title">DPS Ranchi</h3>
+                            <p class="timeline-degree">Class X (CBSE)</p>
+                            <p class="timeline-score"><i class="fas fa-star"></i> 90.8%</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Fun Facts Section -->
+    <section class="section funfacts" id="funfacts">
+        <div class="container">
+            <h2 class="section-title">Fun Facts <span>About Me</span></h2>
+            <div class="funfacts-grid">
+                <div class="funfact-card glass-card" data-aos="flip-up">
+                    <div class="funfact-icon music">
+                        <i class="fas fa-music"></i>
+                    </div>
+                    <h3 class="funfact-title">Music Lover</h3>
+                    <p class="funfact-text">Music holds a special place in my life. It's my constant companion through
+                        code and creativity.</p>
+                </div>
+                <div class="funfact-card glass-card" data-aos="flip-up" data-aos-delay="50">
+                    <div class="funfact-icon medal">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3 class="funfact-title">2x Gold Medallist</h3>
+                    <p class="funfact-text">Won gold in 100m sprint and 400m relay race. Speed runs in my veins!</p>
+                </div>
+                <div class="funfact-card glass-card" data-aos="flip-up" data-aos-delay="100">
+                    <div class="funfact-icon badminton">
+                        <i class="fas fa-table-tennis"></i>
+                    </div>
+                    <h3 class="funfact-title">Ambidextrous Player</h3>
+                    <p class="funfact-text">I can play badminton with both hands. Keeps opponents guessing!</p>
+                </div>
+                <div class="funfact-card glass-card" data-aos="flip-up" data-aos-delay="150">
+                    <div class="funfact-icon camera">
+                        <i class="fas fa-camera-retro"></i>
+                    </div>
+                    <h3 class="funfact-title">Photography Enthusiast</h3>
+                    <p class="funfact-text">I love capturing moments through my lens. Photography is my creative escape.
+                    </p>
+                </div>
+                <div class="funfact-card glass-card" data-aos="flip-up" data-aos-delay="200">
+                    <div class="funfact-icon chess">
+                        <i class="fas fa-chess-knight"></i>
+                    </div>
+                    <h3 class="funfact-title">Chess Strategist</h3>
+                    <p class="funfact-text">I enjoy board games, especially chess. Planning moves ahead is my thing!</p>
+                </div>
+                <div class="funfact-card glass-card" data-aos="flip-up" data-aos-delay="250">
+                    <div class="funfact-icon gaming">
+                        <i class="fas fa-gamepad"></i>
+                    </div>
+                    <h3 class="funfact-title">Gaming Enthusiast</h3>
+                    <p class="funfact-text">In my free time, I enjoy playing Android and PC games. Gaming is my way to
+                        unwind!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span>Touch</span></h2>
+            <p class="section-subtitle">Have a project in mind or just want to say hello? Feel free to reach out!</p>
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <a href="mailto:aayushamritesh@gmail.com">aayushamritesh@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <a href="https://linkedin.com/in/aayush-amritesh-64b346220"
+                                target="_blank">aayush-amritesh</a>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <a href="https://github.com/Ay-ritesh" target="_blank">Ay-ritesh</a>
+                        </div>
+                    </div>
+                    <div class="contact-item glass-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-x-twitter"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>X (Twitter)</h3>
+                            <a href="https://x.com/Ay_ritesh" target="_blank">@Ay_ritesh</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <form action="https://formspree.io/f/mlgeyody" method="POST" class="contact-form glass-card"
+                        id="contactForm">
+                        <h3 class="form-title">Message Me</h3>
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" required placeholder=" ">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" name="email" id="email" required placeholder=" ">
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" required placeholder=" ">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea name="message" id="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Your Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary submit-btn">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#hero">Aayush<span>.</span></a>
+                    <p>Building digital experiences that matter.</p>
+                </div>
+                <div class="footer-socials">
+                    <a href="mailto:aayushamritesh@gmail.com" class="social-link" aria-label="Email"><i
+                            class="fas fa-envelope"></i></a>
+                    <a href="https://linkedin.com/in/aayush-amritesh-64b346220" target="_blank" class="social-link"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Ay-ritesh" target="_blank" class="social-link" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://x.com/Ay_ritesh" target="_blank" class="social-link" aria-label="X"><i
+                            class="fab fa-x-twitter"></i></a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Aayush Amritesh. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
