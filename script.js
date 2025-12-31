@@ -188,7 +188,7 @@ function handleParallax() {
 
 // ===== WINDOWS 10 SPOTLIGHT EFFECT =====
 function setupSpotlightEffect() {
-    const cards = document.querySelectorAll('.glass-card, .skill-category');
+    const cards = document.querySelectorAll('.glass-card, .skill-category, .contact-form');
 
     cards.forEach(card => {
         card.addEventListener('mousemove', (e) => {
@@ -254,3 +254,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         }
     });
 });
+
+
