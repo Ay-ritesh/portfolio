@@ -2078,3 +2078,66 @@ a.cert-card {
 .cert-achievement i {
     color: var(--accent-secondary) !important;
 }
+
+/* ===== REVIEW FIXES ===== */
+
+/* 1. Hello I'm text white color */
+.hero-greeting {
+    color: var(--text-primary) !important;
+}
+
+/* 2. Scroll indicator position fix for mobile */
+@media (max-width: 768px) {
+    .scroll-indicator {
+        position: relative !important;
+        bottom: auto !important;
+        margin-top: 40px !important;
+        transform: none !important;
+    }
+    
+    .hero {
+        padding-bottom: 30px !important;
+    }
+}
+
+/* 3. Skill category spotlight effect (same as glass-card) */
+.skill-category::before {
+    content: '' !important;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    background: radial-gradient(600px circle at var(--mouse-x, 50%) var(--mouse-y, 50%), rgba(255, 255, 255, 0.06), transparent 40%) !important;
+    opacity: 0 !important;
+    transition: opacity var(--transition-normal) !important;
+    pointer-events: none !important;
+    z-index: 1 !important;
+}
+
+.skill-category:hover::before {
+    opacity: 1 !important;
+}
+
+/* Location card positioning after buttons */
+.location-card {
+    margin-top: 30px !important;
+}
+
+.connect-label {
+    margin-top: 0 !important;
+}
+
+/* Hide scroll indicator when hero layout is stacked (tablet/medium screens) */
+@media (max-width: 1024px) {
+    .scroll-indicator {
+        display: none !important;
+    }
+}
+
+/* Show scroll indicator only on large screens (side-by-side layout) */
+@media (min-width: 1025px) {
+    .scroll-indicator {
+        display: flex !important;
+    }
+}
